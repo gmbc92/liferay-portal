@@ -129,11 +129,10 @@ definition {
 	}
 
 	@description = "LPS-88573 - Verify that the Results Bar show the searched terms"
-	@ignore = "Test Stub"
 	@priority = "4"
 	test ResultBarShowsSearchedItems {
 
-		// TODO LRQA-67507 ResultBarShowsSearchedItems pending implementation
+		WorkflowMetricsProcessListView.metricsWorkflowSearchRight(workflowSearchName= "Single Approver");
 
 	}
 
